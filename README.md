@@ -10,7 +10,19 @@ Analysis of 500K+ real retail transactions from a UK-based online store
 - **Geographic breakdown** — revenue by country
 
 ## Key findings
-> Will be updated as analysis is completed
+
+### Sales trend analysis
+- **Total revenue**: £8,911,408 across 18,532 orders from 4,338 customers
+- **Peak month**: November 2011 — £1,161,817 (early holiday shopping spike)
+- **Strongest day**: Thursday drives the highest weekly revenue
+- **Peak hours**: 10am–3pm on weekdays — near zero on weekends
+- **Top international market**: Netherlands leads all non-UK countries
+
+### Charts
+![Monthly Revenue](outputs/charts/monthly_revenue.png)
+![Order Heatmap](outputs/charts/order_heatmap.png)
+![Revenue by Day](outputs/charts/revenue_by_day.png)
+![Top Countries](outputs/charts/top_countries.png)
 
 ## Tech stack
 Python · Pandas · Matplotlib · Seaborn · Plotly · Jupyter
