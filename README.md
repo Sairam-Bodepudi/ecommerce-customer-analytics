@@ -18,11 +18,21 @@ Analysis of 500K+ real retail transactions from a UK-based online store
 - **Peak hours**: 10am–3pm on weekdays — near zero on weekends
 - **Top international market**: Netherlands leads all non-UK countries
 
+### RFM customer segmentation
+- **4,338 customers** scored across Recency, Frequency and Monetary dimensions
+- **VIP customers** (29.2%) generate **76.8% of total revenue** — £6.8M of £8.9M
+- **VIP behaviour**: avg 9.9 orders, last purchased just 20 days ago
+- **At-Risk customers**: 1,492 customers (34.4%) averaging 146 days since last purchase
+- **£645,858 revenue at risk** from At-Risk segment — prime re-engagement target
+
 ### Charts
 ![Monthly Revenue](outputs/charts/monthly_revenue.png)
 ![Order Heatmap](outputs/charts/order_heatmap.png)
 ![Revenue by Day](outputs/charts/revenue_by_day.png)
 ![Top Countries](outputs/charts/top_countries.png)
+![RFM Segments](outputs/charts/rfm_segments.png)
+![RFM Scatter](outputs/charts/rfm_scatter.png)
+
 
 ## Tech stack
 Python · Pandas · Matplotlib · Seaborn · Plotly · Jupyter
