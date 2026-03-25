@@ -24,6 +24,13 @@ Analysis of 500K+ real retail transactions from a UK-based online store
 - **VIP behaviour**: avg 9.9 orders, last purchased just 20 days ago
 - **At-Risk customers**: 1,492 customers (34.4%) averaging 146 days since last purchase
 - **£645,858 revenue at risk** from At-Risk segment — prime re-engagement target
+### Product analysis
+- **3,897 unique products** analysed across 397K transactions
+- **Top product**: PAPER CRAFT, LITTLE BIRDIE — £168,470 revenue
+- **Top 10 products** generate £886,503 — 9.9% of total revenue
+- **Pareto principle confirmed**: top 20.8% of products = 80% of revenue
+- **Highest return rate**: ROTATING SILVER ANGELS T-LIGHT HLDR at 118.6%
+- **PAPER CRAFT, LITTLE BIRDIE** appears in both top revenue AND 100% return rate — flagged for investigation
 
 ### Charts
 ![Monthly Revenue](outputs/charts/monthly_revenue.png)
@@ -32,6 +39,9 @@ Analysis of 500K+ real retail transactions from a UK-based online store
 ![Top Countries](outputs/charts/top_countries.png)
 ![RFM Segments](outputs/charts/rfm_segments.png)
 ![RFM Scatter](outputs/charts/rfm_scatter.png)
+![Top 10 Products](outputs/charts/top10_products.png)
+![Return Rates](outputs/charts/return_rates.png)
+![Pareto Analysis](outputs/charts/pareto_analysis.png)
 
 
 ## Tech stack
